@@ -409,7 +409,6 @@
 .item-accordion {
     i {
         font-size: 25px;
-        transition: color .3s ease;
     }
     &__header {
         padding: 30px;
@@ -421,11 +420,8 @@
         align-items: center;
         justify-content: space-between;
         text-transform: uppercase;
-        transition: all .3s ease;
+        transition: all .6s ease;
         cursor: pointer;
-        i {
-            transition: all .3s ease;
-        }
         &:hover, &.open{
             color: #FFFFFF;
             background: #87003D;
