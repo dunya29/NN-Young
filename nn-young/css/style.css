@@ -121,7 +121,7 @@
 
 .bust-page {
   font-family: "PTRootUIVF", Sans-serif;
-  padding: 0;
+  padding: 0 0 60px;
 }
 
 .bust-page h3 {
@@ -132,7 +132,6 @@
 }
 
 .bust-page h4 {
-  font-family: "Source Serif Pro", serif;
   font-size: clamp(1.75rem, 3vw, 2.25rem);
   font-weight: 300;
   line-height: 1.15;
@@ -663,7 +662,7 @@
 }
 
 .bust-partners {
-  padding: 60px 0 20px;
+  padding-top: 40px;
 }
 
 .bust-partners h3 {
@@ -676,13 +675,14 @@
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  margin: 0 -10px;
 }
 
 .bust-partners__item {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 33.333%;
   flex: 0 0 33.333%;
-  padding: 10px;
+  padding: 10px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
