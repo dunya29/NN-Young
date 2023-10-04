@@ -445,12 +445,29 @@
         padding: 0 20px;
         margin: 40px 0 15px;
         background-color: #fff;
+        a {
+            position: relative;
+            &:after {
+                content: "";
+                height: 1px;
+                background: #000;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0;
+                transition: all .3s ease;
+            }
+            &:hover {
+                &:after {
+                    width: 100%;
+                }
+            }
+        }
         p {
             margin: 0;
         }
         ul {
             padding-left: 15px;
-            //margin-bottom: 25px;
         }
         ul li {
             font-size: 18px;
