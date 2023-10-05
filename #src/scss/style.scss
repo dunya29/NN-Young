@@ -663,6 +663,14 @@
             object-fit: contain;
         }
     }
+    &--official {
+        .bust-partners__item {
+            flex: 0 0 50%;
+            @media (max-width: 767px) {
+                flex: 0 0 75%
+            }
+        }
+    }
     @media (max-width: 1024px) {
         padding-top: 20px;
     }
